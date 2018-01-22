@@ -16,6 +16,7 @@ public class Tournament {
     private double price;
     private TreeSet<Player> participants;
     private TreeSet<Match> matches;
+    private String lol = "lol";
 
 
     public Tournament(String location, double price, TreeSet<Player> participants) {
