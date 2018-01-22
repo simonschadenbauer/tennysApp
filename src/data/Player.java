@@ -13,6 +13,7 @@ public class Player implements Comparable<Player>{
     private String name;
     private String sponsor;
     private int rank;
+    private String goodness = "not good";
 
     public Player(String name, String sponsor, int rank) {
         this.name = name;
